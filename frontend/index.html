@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DarkEye</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>DarkEye</h1>
+        <p>Real-Time Dark Web Monitoring</p>
+    </header>
+
+    <main>
+        <section id="keywords-section">
+            <h2>Set Monitoring Keywords</h2>
+            <input type="text" id="keywords" placeholder="Enter keywords, separated by commas">
+            <button onclick="setKeywords()">Set Keywords</button>
+        </section>
+
+        <section id="monitor-section">
+            <h2>Detected Alerts</h2>
+            <button onclick="monitorDarkWeb()">Monitor</button>
+            <div id="alerts"></div>
+        </section>
+
+        <!-- New About Section -->
+        <section id="about-section">
+            <h2>About DarkEye</h2>
+            <p>DarkEye is a keyword alert system designed for real-time dark web monitoring, empowering users to proactively identify and mitigate potential cyber threats. By detecting specific keywords within dark web content, DarkEye provides immediate alerts, enabling rapid incident response. Key features include customizable keyword lists, real-time notifications, a user-friendly interface built with HTML, and a Python-based backend for efficient data processing and analysis. This system enhances threat intelligence, allowing security professionals to stay ahead of emerging threats and protect against cyberattacks.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 DarkEye(G.THIRU HABINASH YADAV). All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
